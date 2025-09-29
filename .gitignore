@@ -1,0 +1,59 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+outputs/
+*.pbix
+.env
+.DS_Store
+.idea/
+.vscode/
+analisis_desempenios/
+venv/
+ENV/
+env/
+
+# Ignorar dependencias de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+
+# Ignorar configuraciones de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar archivos de sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignorar cachés y logs
+*.log
+*.sqlite3
+.cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignorar datos temporales
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Ignorar resultados de Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# Ignorar distribución y build
+build/
+dist/
+*.spec
